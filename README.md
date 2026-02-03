@@ -1,6 +1,6 @@
 # Mod
 my mini mod
-```BNF
+```bnf
  [i] "Этап 1 — Core (MVP)"
    [I] "Команды"
      [I-dop] "Task"
