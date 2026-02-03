@@ -1,0 +1,14 @@
+{
+    "schemaVersion": 1,
+    "id": "mobamod",
+    "version": "1.0.0",
+    "name": "MOBA Mod",
+    "entrypoints": {
+    "main": ["com.example.mobamod.MobaMod"]
+    },
+    "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+    }
+}
