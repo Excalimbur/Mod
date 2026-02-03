@@ -38,6 +38,10 @@ public class Team {
         players.add(player.getUuid());
     }
 
+    public void removePlayer(ServerPlayerEntity player) {
+        players.remove(player.getUuid());
+    }
+
     public boolean hasPlayer(ServerPlayerEntity player) {
         return players.contains(player.getUuid());
     }

@@ -1,6 +1,6 @@
 package com.example.mobamod.team;
 
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerPlayConnectionEvents;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 
 import java.util.Comparator;
 
@@ -21,7 +21,8 @@ public class TeamAutoAssign {
             TeamManager.assignPlayer(player, smallestTeamId);
 
             player.sendMessage(
-                    TeamManager.get(smallestTeamId).getDisplayName()
+                    TeamManager.get(smallestTeamId)
+                            .getDisplayName()
                             .copy()
                             .append(" team joined!"),
                     false
