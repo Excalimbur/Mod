@@ -6,9 +6,6 @@
   "entrypoints": {
     "main": [
       "com.example.mobamod.MobaMod"
-    ],
-    "client": [
-      "com.example.mobamod.MobaModClient"
     ]
   },
   "depends": {
