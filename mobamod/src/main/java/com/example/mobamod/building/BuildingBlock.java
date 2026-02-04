@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 public class BuildingBlock extends BlockWithEntity {
 
     public BuildingBlock() {
-        super(Settings.of(Material.STONE)
+        super(AbstractBlock.Settings.create()
                 .strength(4.0f)
                 .nonOpaque());
     }
